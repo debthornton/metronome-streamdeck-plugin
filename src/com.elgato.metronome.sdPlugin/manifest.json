@@ -1,0 +1,47 @@
+{
+  "SDKVersion": 2,
+  "Author": "Deb",
+  "CodePath": "app.html",
+  "Description": "Metronome for Streamdeck+",
+  "Name": "Metronome",
+  "Icon": "actions/template/assets/metronome",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck",
+  "Version": "1.0.2",
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Category": "Piano",
+  "CategoryIcon": "actions/template/assets/pianokeys",
+  "Actions": [
+    {
+      "Icon": "actions/template/assets/metronome",
+      "Name": "Metronome",
+      "Controllers": ["Encoder"],
+      "Encoder": {
+        "TriggerDescription": {
+          "Rotate": "Update the bpm/beats per measure/offbeat mode",
+          "Push": "Toggle between bpm/beat per measure/offbeat modes",
+          "Touch": "Start and stop the metronome click"
+        }
+      },
+      "States": [
+        {
+          "Image": "actions/template/assets/metronome.circle.small"
+        }
+      ],
+      "Tooltip": "Metronome controller",
+      "UUID": "com.elgato.metronome.action",
+      "PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+    }
+  ]
+}

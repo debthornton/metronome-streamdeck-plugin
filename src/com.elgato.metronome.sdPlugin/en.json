@@ -1,10 +1,10 @@
 {
-  "Description": "Use this to create your own plugin", 
-  "Name": "Stream Deck Template", 
-  "Category": "Templates", 
-  "com.elgato.template.action": {
-    "Name": "Action", 
-    "Tooltip": "This is the only action in this plugin"
+  "Description": "Use this to create your own plugin",
+  "Name": "Metronome",
+  "Category": "Templates",
+  "com.elgato.metronome.action": {
+    "Name": "Metronome",
+    "Tooltip": "Metronome controller plugin"
   },
   "Localization": {
     "More info": "More info",
